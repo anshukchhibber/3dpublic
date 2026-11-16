@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" width="1280" height="520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>How PrintCraft works: idea to print file</title>
+  <rect width="1280" height="520" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+  </defs>
+  <!-- row 1 -->
+  <g stroke="#1f2937" stroke-width="2">
+    <rect x="30" y="40" width="270" height="130" rx="14" fill="#e0f2fe"/>
+    <rect x="350" y="40" width="270" height="130" rx="14" fill="#e0f2fe"/>
+    <rect x="670" y="40" width="270" height="130" rx="14" fill="#e0f2fe"/>
+    <rect x="990" y="40" width="260" height="130" rx="14" fill="#dcfce7"/>
+  </g>
+  <g fill="#111827" text-anchor="middle">
+    <text x="165" y="78" font-size="26" font-weight="700">1. Describe</text>
+    <text x="165" y="112" font-size="20">Type an idea or</text>
+    <text x="165" y="138" font-size="20">add a photo</text>
+    <text x="485" y="78" font-size="26" font-weight="700">2. Brief</text>
+    <text x="485" y="112" font-size="20">A short interview fills</text>
+    <text x="485" y="138" font-size="20">in a written brief</text>
+    <text x="805" y="78" font-size="26" font-weight="700">3. Concepts</text>
+    <text x="805" y="112" font-size="20">Built by code, each one</text>
+    <text x="805" y="138" font-size="20">checked before you see it</text>
+    <text x="1120" y="78" font-size="26" font-weight="700">4. Build this</text>
+    <text x="1120" y="112" font-size="20">One button opens</text>
+    <text x="1120" y="138" font-size="20">the workshop</text>
+  </g>
+  <g stroke="#374151" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="300" y1="105" x2="346" y2="105"/>
+    <line x1="620" y1="105" x2="666" y2="105"/>
+    <line x1="940" y1="105" x2="986" y2="105"/>
+    <path d="M1120,170 L1120,215 L640,215 L640,250" />
+  </g>
+  <!-- loop -->
+  <rect x="30" y="250" width="1220" height="240" rx="18" fill="#fef9c3" stroke="#1f2937" stroke-width="2"/>
+  <text x="50" y="282" font-size="22" font-weight="700" fill="#111827">5. Workshop: every edit changes a number, the model is rebuilt, the gate re-checks it</text>
+  <g stroke="#1f2937" stroke-width="2">
+    <rect x="60" y="310" width="250" height="150" rx="12" fill="#ffffff"/>
+    <rect x="360" y="310" width="250" height="150" rx="12" fill="#ffffff"/>
+    <rect x="660" y="310" width="260" height="150" rx="12" fill="#ede9fe"/>
+    <rect x="970" y="310" width="250" height="150" rx="12" fill="#dcfce7"/>
+  </g>
+  <g fill="#111827" text-anchor="middle">
+    <text x="185" y="348" font-size="22" font-weight="700">Change a slider</text>
+    <text x="185" y="382" font-size="19">or ask the AI chat,</text>
+    <text x="185" y="408" font-size="19">which also only</text>
+    <text x="185" y="434" font-size="19">changes parameters</text>
+    <text x="485" y="348" font-size="22" font-weight="700">Rebuild</text>
+    <text x="485" y="382" font-size="19">OpenSCAD regenerates</text>
+    <text x="485" y="408" font-size="19">the whole model</text>
+    <text x="485" y="434" font-size="19">from its parameters</text>
+    <text x="790" y="348" font-size="22" font-weight="700">The gate</text>
+    <text x="790" y="382" font-size="19">Watertight, fits the plate,</text>
+    <text x="790" y="408" font-size="19">right number of parts,</text>
+    <text x="790" y="434" font-size="19">prints without supports</text>
+    <text x="1095" y="348" font-size="22" font-weight="700">6. Output</text>
+    <text x="1095" y="382" font-size="19">Print file (STL, 3MF)</text>
+    <text x="1095" y="408" font-size="19">and a print guide with</text>
+    <text x="1095" y="434" font-size="19">time, grams, settings</text>
+  </g>
+  <g stroke="#374151" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="310" y1="385" x2="356" y2="385"/>
+    <line x1="610" y1="385" x2="656" y2="385"/>
+    <line x1="920" y1="385" x2="966" y2="385"/>
+  </g>
+  <text x="790" y="478" font-size="18" text-anchor="middle" fill="#374151">a failed check is shown in words; the next edit starts the loop again</text>
+</svg>
